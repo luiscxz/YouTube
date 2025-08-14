@@ -1,6 +1,6 @@
 # Predicción de Likes y Análisis de Tendencias de Videos
 
-Este repositorio contiene el análisis y modelado de datos de videos de Youtubr para Estados Unidos con el objetivo de **predecir la cantidad de likes** y estudiar los factores que influyen en la **velocidad de aparición en tendencias**.  
+Este repositorio contiene el análisis y modelado de datos de videos de Youtube para Estados Unidos con el objetivo de **predecir la cantidad de likes** y estudiar los factores que influyen en la **velocidad de aparición en tendencias**.  
 
 ## Descripción del Proyecto
 
@@ -28,4 +28,22 @@ Se evaluaron distintos enfoques de machine learning para predecir los likes:
 
 Los modelos simples permiten capturar hasta un **87 % de la variabilidad** de los datos. La presencia de valores atípicos no afectó significativamente las métricas de rendimiento.  
 
+### Requisitos
+
+Para reproducir este proyecto se requiere **Python 3.12.11** y las siguientes librerías:
+
+- `pandas` 2.3.0
+- `numpy` 2.2.6
+- `plotly` 6.2.0
+- `urlextract` 1.9.0
+- `emoji` 2.14.1
+- `matplotlib` 3.10.3
+- `seaborn` 0.13.2
+- `scikit-learn` 1.7.0
+- `xgboost` 3.0.4
+- `optuna` 4.4.0
+- `shap` 0.48.0
+- `transformers` 4.52.4
+
+Se recomienda crear un entorno virtual para instalar estas dependencias
  
